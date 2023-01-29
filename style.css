@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 800% 800%;
+    animation: gradient 7S ease infinite;
+    overflow: hidden;
+    }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  img {
+    width: 500px;
+    animation: dance 5s infinite;
+  }
+  
+/* The animation code */
+@keyframes dance {
+  0% {
+      transform: rotate(0deg) translateX(0);
+  }
+  10% {
+      transform: rotate(-10deg) translateX(-20px);
+  }
+  20% {
+      transform: rotate(10deg) translateX(-10px);
+  }
+  30% {
+      transform: rotate(-10deg) translateX(-20px);
+  }
+  40% {
+      transform: rotate(10deg) translateX(-10px);
+  }
+  50% {
+      transform: rotate(0deg) translateX(0);
+  }
+  60% {
+      transform: rotate(10deg) translateX(10px);
+  }
+  70% {
+      transform: rotate(-10deg) translateX(20px);
+  }
+  80% {
+      transform: rotate(10deg) translateX(10px);
+  }
+  90% {
+      transform: rotate(-10deg) translateX(20px);
+  }
+  100% {
+      transform: rotate(0deg) translateX(0);
+  }
+}
