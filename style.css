@@ -29,7 +29,16 @@ body {
     align-items: center;
     height: 100vh;
   }
-  
+
+.button {
+  background-color: #000000;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
   img {
     width: 500px;
     animation: dance 5s infinite;
