@@ -40,6 +40,12 @@ body {
     }
   }
 
+   .center-error {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
   .center-people {
     display: block;
     justify-content: center;
