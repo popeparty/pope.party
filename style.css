@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+html {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+p {
+  font-family: "DynaPuff", system-ui;
+}
+
 body {
     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     background-size: 800% 800%;
     animation: gradient 7S ease infinite;
-    overflow: hidden;
+    overflow: visible;
     }
   
   @keyframes gradient {
@@ -22,25 +39,65 @@ body {
       background-position: 0% 50%;
     }
   }
-  
-  .center {
-    display: flex;
+
+  .center-people {
+    display: block;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
+
+    .center-footer-buttons {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+
+  .people-list-text {
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #491739;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .special-text {
+        font-size: 1em;
+        color: #a3a3a3;
+        text-align: center;
+    }
+
+.invisible {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 .button {
   background-color: #000000;
   color: #fff;
-  font-size: 12px;
+  font-size: 1em;
   border: 1px solid #000000;
   padding: 10px 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
-  img {
-    width: 500px;
+.pope-img {
+  display: block;  
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 2em;
+    text-align: center;
+    align-items: center;
     animation: dance 5s infinite;
   }
   
