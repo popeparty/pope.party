@@ -19,7 +19,7 @@ body {
     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     background-size: 800% 800%;
     animation: gradient 7S ease infinite;
-    overflow: visible;
+    overflow: scroll;
     }
   
   @keyframes gradient {
